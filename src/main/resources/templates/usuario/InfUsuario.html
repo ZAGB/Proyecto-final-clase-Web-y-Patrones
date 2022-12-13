@@ -1,0 +1,77 @@
+<html xmlns: th="http://www.thymeleaf.org">
+    <head>
+        <title>Edita Pefil</title>
+        <meta charset="UTF-8">
+        <!-- <link href="/css/inicio.css" rel="stylesheet" type="text/css"/> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="/css/fondos.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" th:href="@{/webjars/font-awesome/css/all.css}"/>
+        <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+        <script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+        <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        <a ></a>
+    </head>
+    <body>
+        <div class="container-fluid colorB">
+        <header th:fragment="header">
+            <h1 class="lead text-center font">Asesoria y Cotizaciones PADAZU </h1>
+            <nav class="navbar navbar-expand-lg navbar-light colorB">
+              <div class="container-fluid navbar-nav">
+                    <a class="nav-link colorBtn font2" th:href="@{/}">Inicio |</a>
+                    <a class="nav-link colorBtn font2" th:href="@{/cotizar/cotizarInf}">Asesorias Aduaneras y cotizaciones |</a>
+                    <a class="nav-link colorBtn font2" th:href="@{/asesoria/informacionTransportes}">Informacion cotizar|</a>
+                    <a class="nav-link colorBtn font2" th:href="@{/usuario/loginUsuario}">Login |</a>
+              </div>
+
+            </nav>
+        </header>
+        </div>
+                <nav>
+                  <div class="container-xl">
+                  <div class="row">
+                      <div class=" col-xl" style=" background-color: #2388da" >
+                      <img src="/imagenes/Fondo.png" width="3000" height="269.6" alt="..."> 
+                      <p class="font3" >Somos el mejor servicio online de cotizaciones y comparacion de empresas!</p>
+                    </div>
+                    </div>   
+                  </div>
+                </nav>
+        </br></br></br></br></br>
+  
+        </br></br>
+    <section>
+            
+        
+          <center><p class="font2"> Gracias por sus comentarios de mejora</p></center>
+        
+        
+        
+    </section>
+	<footer th:fragment="footer" class="footerC" style=" background-color: #2388da">
+            <div class="container ">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8 col-lg-12 col-xl-12" style=" background-color: #2388da">
+                      </br>
+                      <div class="CustomP">
+                          <center><img src="/imagenes/footerIcon.jpg" class=" mx-auto d-block CustomP" width="150" height="100"></center>
+                      </div>
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-lg-12 col-xl-12"style=" background-color: #2388da ">
+                      </br>
+                      <center><div class="btn-group">
+                                  <a href="https://www.facebook.com/" class="btn btn-danger">Facebook</a> 
+                                  <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" class="btn btn-danger">Twitter</a>
+                                  <a href="https://www.pinterest.es/" class="btn btn-danger">Pinterest</a> 
+                              </div>
+                              </br>Derechos reservados &COPY; 2022<address style="display: inline" > Tel 8898-7744 </address> 
+                            </div></center>
+                      </div>
+                  </div>
+                </div>
+                  
+            </div> 
+        </footer>
+    </body>
+   
+</html>
